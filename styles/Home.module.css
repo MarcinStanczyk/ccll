@@ -1,3 +1,6 @@
+@value primaryColor: purple;
+
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -63,7 +66,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #c3c3c3c3;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -95,7 +98,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: primaryColor;
   border-color: #0070f3;
 }
 
